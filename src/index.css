@@ -4,10 +4,14 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  /* background-color: #7700ee; */
+  background-color: #f5d020;
+background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
   color: #fff;
   overflow-x: hidden;
 }
+
+
 #root {
   min-height: 100vh;
   display: flex;
@@ -43,11 +47,12 @@ h1 {
 }
 
 .landing,
+.Landing,
 .connect-wallet,
 .mint-nft,
 .member-page {
   flex-direction: column;
-  width: 960px;
+  width: 900px;
   max-width: calc(100% - 1rem);
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -93,7 +98,7 @@ h1 {
 
 .member-page form h5 {
   margin-top: 0;
-  color: #7700ee;
+  color: #bb0000;
 }
 
 .member-page form .card > div {
